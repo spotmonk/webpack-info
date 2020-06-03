@@ -1,3 +1,4 @@
 import '../styles/main.scss';
 
-console.error('Here is the thing');
+
+$('button').click(() => { console.error('it worked!'); });
